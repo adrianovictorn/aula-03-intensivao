@@ -1,6 +1,6 @@
 
 export function Navegacao(){
-    return <div>
+    return <div className="navegacao">
         <input type="radio" name="opcao-pagina" id="pagina-0" defaultChecked/>
         <label htmlFor="pagina-0">Pratos Principais</label>
         <input type="radio" name="opcao-pagina" id="pagina-1" />
