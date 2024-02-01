@@ -10,7 +10,7 @@ export function App(){
         <img src={Hashtaurante} alt="" className="capa"/>
         <Navegacao />
         <div className="menu">
-         {}
+         {pratosPrincipais.map(item => <ItemCardapio nome={item.nome} descricao={item.descricao} preco={item.preco} imagem={item.imagem}/>)}
         </div>
   </> 
 
